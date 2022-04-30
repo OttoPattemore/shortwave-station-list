@@ -1,0 +1,34 @@
+{
+    "stations" : [
+        {
+            "name" : "Radio Spain",
+            "frequency" : 10531,
+            "power": 10000,
+            "notes": "Blah",
+            "location": [
+                -90.23234234234,
+                80.3453452234
+            ]
+        },
+        {
+            "name" : "Radio London",
+            "frequency" : 10531,
+            "power": 10000,
+            "notes": "Blah",
+            "location": [
+                -90.23234234234,
+                80.3453452234
+            ]
+        },
+        {
+        "name" : "Radio Korea",
+            "frequency" : 10531,
+            "power": 10000,
+            "notes": "Blah",
+            "location": [
+                -90.23234234234,
+                80.3453452234
+            ]
+        }
+    ]
+}
