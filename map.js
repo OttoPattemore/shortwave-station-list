@@ -24,6 +24,9 @@ getStationList().then(function(data){
     data["stations"].forEach(function(station){
         const lat = station["location"][0];
         const long = station["location"][1];
+        if( lat == 0 && long == 0){
+            return;
+        }
         L.marker([lat, long]).addTo(map)
             .bindPopup(getStationText(station));
     });

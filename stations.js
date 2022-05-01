@@ -8,7 +8,6 @@ function getStationText(station){
     const iskWStation = station["power"] > 1000;
     const powerUnit = iskWStation ? "kW" : "W";
     const power = iskWStation ? station["power"] / 1000 : station["power"];
-
     return station["name"] + "\t" + station["frequency"]+"Khz" + "\t" + power + powerUnit;
 }
 function updateStationList(data){

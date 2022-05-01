@@ -1,14 +1,79 @@
 {
     "stations" : [
         {
-            "name" : "Radio London",
-            "frequency" : 10531,
-            "power": 10000,
-            "notes": "Blah",
+            "name" : "SOH Xi Wang Zhi Sheng",
+            "frequency" : 11.120,
+            "power": 0,
+            "notes": "",
             "location": [
-                -27,
-                -156
+                0,0
             ]
+        },
+        {
+            "name": "WWV",
+            "frequency": 2500,
+            "power": 2500,
+            "notes": "WWV time signal from Fort Collins Colarado",
+            "location": [40.682000, -105.042028],
+            "origin": "https://www.nist.gov/pml/time-and-frequency-division/time-distribution/radio-station-wwv"
+        },
+        {
+            "name" : "WWV",
+            "frequency": 5000,
+            "power": 10000,
+            "notes": "WWV time signal from Fort Collins Colarado",
+            "location":[40.678361, -105.040250],
+            "origin": "https://www.nist.gov/pml/time-and-frequency-division/time-distribution/radio-station-wwv"
+        },
+        {
+            "name": "WWV",
+            "frequency": 10000,
+            "power": 10000,
+            "notes": "WWV time signal from Fort Collins Colarado",
+            "location": [40.679944,-105.040306],
+            "origin": "https://www.nist.gov/pml/time-and-frequency-division/time-distribution/radio-station-wwv"
+        },
+        {
+            "name": "WWV",
+            "frequency": 15000,
+            "power": 10000,
+            "notes": "WWV time signal from Fort Collins Colarado",
+            "location": [40.679167,  -105.040139],
+            "origin": "https://www.nist.gov/pml/time-and-frequency-division/time-distribution/radio-station-wwv"
+        },
+        {
+            "name": "WWV",
+            "frequency": 20000,
+            "power": 10000,
+            "notes": "WWV time signal from Fort Collins Colarado",
+            "location": [40.681417, -105.041250],
+            "origin": "https://www.nist.gov/pml/time-and-frequency-division/time-distribution/radio-station-wwv"
+        },
+        {
+            "name": "Radio New Zealand",
+            "frequency": 11725,
+            "power": 100000,
+            "notes": "Targeting pacific",
+            "location": [-38.842597, 176.429728],
+            "origin": "https://www.rnz.co.nz/international/technical"
+        },
+        {
+            "name": "Radio France Internationale",
+            "language": "french",
+            "frequency": 11700,
+            "power": 500000,
+            "notes": "Location wrong ( set to a random place in France )",
+            "location": [47.034180, 2.198706],
+            "origin": "https://www.rfi.fr/fr/fr%C3%A9quences"
+        },
+        {
+            "name": "Bay Island Radio",
+            "language": "english",
+            "frequency": 5045,
+            "power": 0,
+            "notes": "A small low power FM and shortwave station.  Music is 70s-90s style.",
+            "location": [-27.593328, 153.408379],
+            "origin": "https://bayislandsradio.com.au/"
         }
     ]
 }
