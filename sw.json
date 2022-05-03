@@ -67,6 +67,15 @@
             "origin": "https://www.rfi.fr/fr/fr%C3%A9quences"
         },
         {
+            "name": "Radio France Internationale",
+            "language": "french",
+            "frequency": 9790,
+            "power": 500000,
+            "notes": "Location wrong ( set to a random place in France )",
+            "location": [47.034200,2.198706],
+            "origin": "https://www.rfi.fr/fr/fr%C3%A9quences"
+        },
+        {
             "name": "Bay Island Radio",
             "language": "english",
             "frequency": 5045,
@@ -74,6 +83,22 @@
             "notes": "A small low power FM and shortwave station.  Music is 70s-90s style.",
             "location": [-27.593328, 153.408379],
             "origin": "https://bayislandsradio.com.au/"
+        },
+        {
+            "name": "CNR 1 Voice of China",
+            "language": "chinese",
+            "frequency": 11175,
+            "power": 0,
+            "notes": " ( Location unverified ) ",
+            "location": [38.0437743, 114.3642338]
+        },
+        {
+            "name": "WWCR Nashville",
+            "language": "english",
+            "frequency": 5935,
+            "power": 100000,
+            "notes": " ( Location unverified ) ",
+            "location": [36.125903,-86.703091]
         }
     ]
 }
