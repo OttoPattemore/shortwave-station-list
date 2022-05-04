@@ -99,6 +99,14 @@
             "power": 100000,
             "notes": " ( Location unverified ) ",
             "location": [36.125903,-86.703091]
+        },
+        {
+            "name": "Unique Radio",
+            "language": "english",
+            "frequency": 5035,
+            "power": 0,
+            "notes": " USB Broadcast ",
+            "location": [-31.137171, 150.952007]
         }
     ]
 }
