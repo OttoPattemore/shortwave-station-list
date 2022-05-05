@@ -5,8 +5,7 @@
             "frequency" : 11120,
             "power": 0,
             "notes": "",
-            "location": [
-                0,0
+            "location": [ 24.547759, 120.847801
             ]
         },
         {
@@ -14,9 +13,7 @@
             "frequency": 11300,
             "power": 1000,
             "notes": "",
-            "location": [
-                0,
-                0
+            "location": [ 24.547759, 120.847801
             ]
         },
         {
@@ -187,6 +184,50 @@
                 -27.311586,
                 153.017568
             ]
+        },
+        {
+            "name": "BBC World Service",
+            "language": "english",
+            "frequency": 11810,
+            "power": 250000,
+            "notes": "",
+            "location": [52.310322, -2.720650]
+        },
+        {
+            "name": "Radio France Internationale",
+            "language": "hausa",
+            "frequency": 11995,
+            "power": 500000,
+            "notes": "",
+            "location": [46.946171, 1.989655],
+            "origin": "https://shortwaveschedule.com/index.php?freq=11995"
+        },
+        {
+            "name": "WRMI",
+            "language": "english",
+            "frequency": 9955,
+            "power": 100000,
+            "notes": "",
+            "location": [27.456816, -80.932031],
+            "origin": "https://shortwaveschedule.com/index.php?freq=11995"
+        },
+        {
+            "name": "WBCQ",
+            "language": "english",
+            "frequency": 9330,
+            "power": 250000,
+            "notes": "",
+            "location": [46.341172, -67.817055],
+            "origin": "https://shortwaveschedule.com/index.php?freq=9330"
+        },
+        {
+            "name": "SOH Xi Wang Zhi Sheng",
+            "language": "cantonese",
+            "frequency": 11150,
+            "power": 1000,
+            "notes": "",
+            "location": [24.547759, 120.847801],
+            "origin": "https://shortwaveschedule.com/index.php?freq=11150"
         }
     ]
 }
