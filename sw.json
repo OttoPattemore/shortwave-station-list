@@ -88,7 +88,7 @@
             "name": "CNR 1 Voice of China",
             "language": "chinese",
             "frequency": 11175,
-            "power": 0,
+            "power": 100000,
             "notes": " ( Location unverified ) ",
             "location": [38.0437743, 114.3642338]
         },
@@ -107,6 +107,42 @@
             "power": 0,
             "notes": " USB Broadcast ",
             "location": [-31.137171, 150.952007]
+        },
+        {
+            "name": "Radio Saudi",
+            "language": "arabic",
+            "frequency": 7425,
+            "power": 100000,
+            "notes": "Transmitter site not known",
+            "location": [24.694922, 47.821362]
+        },
+        {
+            "name": "Al-Azm Radio",
+            "language": "arabic",
+            "frequency": 11745,
+            "power": 250000,
+            "notes": "Transmittion site may change depending on time of day",
+            "location": [21.599258, 39.214044 ]
+        },
+        {
+            "name": "CNR 1 Voice of China",
+            "language": "chinese",
+            "frequency": 11745,
+            "power": 100000,
+            "notes": " ( Location unverified ) ",
+            "location": [
+                38.0437743,
+                114.3642338
+            ]
+        },
+        {
+            "name": "Voice of America",
+            "language": "english",
+            "frequency": 11900,
+            "power": 500000,
+            "notes": "",
+            "location": [38.886792, -77.016724]
         }
+        
     ]
 }
