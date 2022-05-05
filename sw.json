@@ -228,6 +228,82 @@
             "notes": "",
             "location": [24.547759, 120.847801],
             "origin": "https://shortwaveschedule.com/index.php?freq=11150"
+        },
+        {
+            "name": "SOH Xi Wang Zhi Sheng",
+            "language": "cantonese",
+            "frequency": 11150,
+            "power": 1000,
+            "notes": "",
+            "location": [
+                24.547759,
+                120.847801
+            ],
+            "origin": "https://shortwaveschedule.com/index.php?freq=11150"
+        },
+        {
+            "name": "ABC Radio National",
+            "language": "english",
+            "frequency": 576,
+            "power": 0,
+            "notes": "",
+            "location": [-33.942850, 150.886022]
+        },
+        {
+            "name": "ABC North Coast 2NR",
+            "language": "english",
+            "frequency": 738,
+            "power": 0,
+            "notes": "",
+            "location": [-28.810424, 153.293727]
+        },
+        {
+            "name": "2KP ABC Mid North Coast",
+            "language": "english",
+            "frequency": 684,
+            "power": 0,
+            "notes": "",
+            "location": [ -31.071760, 152.841029]
+        },
+        {
+            "name": "2VM",
+            "language": "english",
+            "frequency": 1530,
+            "power": 0,
+            "notes": "",
+            "location": [-29.383703, 149.882448]
+        },
+        {
+            "name": "2QN",
+            "language": "english",
+            "frequency": 1521,
+            "power": 2000,
+            "notes": "",
+            "location": [-35.541461, 144.898345 ]
+        },
+        {
+            "name": "SBS Radio",
+            "language": "english",
+            "frequency": 1035,
+            "power": 0,
+            "notes": "",
+            "location": [-34.428250, 150.890741]
+        },
+        {
+            "name": "4RK ABC Capricornia",
+            "language": "english",
+            "frequency": 837,
+            "power": 0,
+            "notes": "",
+            "location": [-23.443523, 150.452979]
+        },
+        {
+            "name": "4QD ABC Capricornia",
+            "language": "english",
+            "frequency": 1548,
+            "power": 0,
+            "notes": "",
+            "location": [-23.526193, 148.157861]
         }
     ]
 }
