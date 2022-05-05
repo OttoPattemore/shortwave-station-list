@@ -2,11 +2,21 @@
     "stations" : [
         {
             "name" : "SOH Xi Wang Zhi Sheng",
-            "frequency" : 11.120,
+            "frequency" : 11120,
             "power": 0,
             "notes": "",
             "location": [
                 0,0
+            ]
+        },
+        {
+            "name": "SOH Xi Wang Zhi Sheng",
+            "frequency": 11300,
+            "power": 1000,
+            "notes": "",
+            "location": [
+                0,
+                0
             ]
         },
         {
@@ -142,7 +152,41 @@
             "power": 500000,
             "notes": "",
             "location": [38.886792, -77.016724]
+        },
+        {
+            "name": "ABC Radio Brisbane",
+            "language": "english",
+            "frequency": 612,
+            "power": 50000,
+            "notes": "",
+            "location": [-27.311586, 153.017468]
+        },
+        {
+            "name": "4KQ",
+            "language": "english",
+            "frequency": 693,
+            "power": 2000,
+            "notes": "",
+            "location": [-27.471500, 153.006872]
+        },
+        {
+            "name": "4QS",
+            "language": "english",
+            "frequency": 747,
+            "power": 0,
+            "notes": "",
+            "location": [-27.560297, 151.948481]
+        },
+        {
+            "name": "ABC Radio National",
+            "language": "english",
+            "frequency": 792,
+            "power": 25000,
+            "notes": "",
+            "location": [
+                -27.311586,
+                153.017568
+            ]
         }
-        
     ]
 }
