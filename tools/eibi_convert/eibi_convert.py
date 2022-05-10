@@ -14,11 +14,8 @@ for line in in_file:
     name = items[4]
     lat = 0
     lon = 0
-    try:
-        lat = eibi_tables.location_latlong_lookup[items[3]][0]
-        lon = eibi_tables.location_latlong_lookup[items[3]][1]
-    except:
-        pass
+    lat = eibi_tables.location_latlong_lookup[items[3]][0]
+    lon = eibi_tables.location_latlong_lookup[items[3]][1]
     result["stations"].append({
         "name" : name,
         "frequency": frequency,
@@ -28,6 +25,8 @@ for line in in_file:
         "notes": "",
         "location": [lat,lon]
     })
+
+
 output_file = open("eibi.json","w")
 output_file.write(json.dumps(result,indent=4))
 output_file.close()
