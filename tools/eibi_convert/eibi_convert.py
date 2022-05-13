@@ -9,13 +9,17 @@ result = {
 }
 
 for line in in_file:
+
     items = line.split(";")
+
     frequency = float(items[0])
     name = items[4]
-    lat = 0
-    lon = 0
+
     lat = eibi_tables.location_latlong_lookup[items[3]][0]
     lon = eibi_tables.location_latlong_lookup[items[3]][1]
+
+    times = items[1].split("-")
+
     result["stations"].append({
         "name" : name,
         "frequency": frequency,
@@ -23,6 +27,8 @@ for line in in_file:
         "country": eibi_tables.location_code_lookup[items[3]],
         "power": 0,
         "notes": "",
+        "utc_start": times[0],
+        "utc_end": times[1],
         "location": [lat,lon]
     })
 
