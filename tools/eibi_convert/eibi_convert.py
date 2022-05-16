@@ -8,7 +8,7 @@ result = {
     ]
 }
 
-for line in in_file:
+for i, line in enumerate(in_file):
 
     items = line.split(";")
 
@@ -29,7 +29,8 @@ for line in in_file:
         "notes": "",
         "utc_start": times[0],
         "utc_end": times[1],
-        "location": [lat,lon]
+        "location": [lat,lon],
+        "eibi_line_number": i
     })
 
 
