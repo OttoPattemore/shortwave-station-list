@@ -2,6 +2,8 @@
 A list of shortwave stations.
 This list is intended for a plugin for SDR++. The plugin is currently under development.
 
+The data is in the json format and is a mix of the EIBI database and custom stations.
+
 ## API
 The database can be downloaded from https://ottopattemore.github.io/shortwave-station-list/db/type.json
 
